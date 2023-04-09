@@ -1,0 +1,125 @@
+:root {
+    --x1: #373a3c;
+    --x2: #dddddd;
+    --black: #ddd;
+    --white: #fff;
+    --danger: #dc3545;
+}
+
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+.lobsterStyle{
+    font-family: 'Lobster', cursive;
+}
+
+.whiteTxt{
+    color: var(--black);
+}
+
+.logoTitle {
+    font-size: 37px;
+}
+
+.bg-x1{
+    background-color: var(--x1);
+}
+
+.bg-danger{
+    background-color: var(--danger);
+}
+
+.white-text{
+    color: var(--white);
+}
+
+.h-100 {
+    min-height: 400px;
+}
+
+.paddTop {
+    padding-top: 150px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+.nav-link{
+    color: var(--white) !important;
+}
+/* a {
+    color: var(--white);
+} */
+
+
+/* .navbar-toggler-icon{
+    border: solid, 5px var(--white)!important;
+    border-color: white;
+} */
+
+.header-color {
+    color: var(--grey);
+}
+
+.bg-info{
+    background-color: var(--info);
+}
+
+.logo-footer-size{
+    max-width: 4em;
+}
+
+/* Carrousel CSS */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+opacity: 1;
+}
+
+
+
+p {
+    border-radius: 0px;
+}
+
+.fondo_destacado {
+    border-radius: 10px;
+}
+
+
+
